@@ -39,6 +39,10 @@ Cuando declaramos el segundo for como se ve en el segundo **pseudocodigo** puede
 
 En el fichero encontraras un ejemplo de implementacion con dos lenguajes de programacion para que se pueda entender mejor los lenguajes de programacion elejidos don **"java"** y **"c"**, pero si quires usar otro, te podes guiar con el **pseudocodigo** para que lo puedas implementar.
 
+El tipo de implementacion de **C** Se esta utilizando **punteros** creada con **malloc**, lo que hace es crear un espacion en memoria en el **Heap** o en español **monticulo**. Si queres mas informacion sobre punteros, puedes buscar en google ya que hay mucha info sobre ello.
+
+pd: Puedes usar la sintaxis que conoces en **C**, ya que lo importante es el concepto.
+ 
 ## Guia para que puedar compilar en **C**
 
 En tu **PC** deberia tener instalado el compilador de c para que puedar hacer pruebas.
