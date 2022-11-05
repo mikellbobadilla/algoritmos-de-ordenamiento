@@ -1,6 +1,6 @@
 # Algoritmo por selección
 
-Es un algoritmo de ordenamiento que require 0(n^2) operaciones para ordenar una lista de n numeros. Su funcionamiento es el siguiente
+Es un algoritmo de ordenamiento que require 0(n^2) operaciones para ordenar una lista de n numeros. Su funcionamiento es el siguiente.
 
 - Buscar el numero minimo de la lista.
 - Intercambiar con el primer elemento.
@@ -13,7 +13,7 @@ Es un algoritmo de ordenamiento que require 0(n^2) operaciones para ordenar una 
 **PSeudocodigo**
 
 ```
-PROCESO ordernar numeros:
+PROCESO ordernar numeros por seleccion:
   DEFINIR numeros como ENTERO;
   DEFINIR temporal como ENTERO;
   DEFINIR minimo como ENTERO;

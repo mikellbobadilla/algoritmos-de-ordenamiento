@@ -10,31 +10,31 @@ void printArray(int numeros[], int cantidad){
 }
 
 int* CreateArray(int cantidad){
-  int* elements = (int*) malloc(cantidad * sizeof(int));
-  return elements;
+  int* numbers = (int*) malloc(cantidad * sizeof(int));
+  return numbers;
 }
 
-void DeleteArray(int* array){
+void FreeArray(int* array){
   free(array);
 }
 
-void OrderArray(int* elements, int cantEl){
+void OrderArray(int* numbers, int cantEl){
   int temp;
   int min;
   for(int i = 0; i < cantEl; i++){
     min = i;
     for(int j = i + 1; j < cantEl; j++){
-      if(elements[j] < elements[min]){
+      if(numbers[j] < numbers[min]){
         min = j;
       }
     }
 
-    temp = elements[i];
-    elements[i] = elements[min];
-    elements[min] = temp;
+    temp = numbers[i];
+    numbers[i] = numbers[min];
+    numbers[min] = temp;
 
   }
-  printArray(elements, cantEl);
+  printArray(numbers, cantEl);
 }
 
 int main(){
@@ -47,5 +47,5 @@ int main(){
   numbers[5] = 3;
 
   OrderArray(numbers, 6);  
-  DeleteArray(numbers);
+  FreeArray(numbers);
 }

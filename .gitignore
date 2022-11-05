@@ -1,2 +1,4 @@
 *.exe
-seleccion/*.class
+*/*.class
+out/*
+.vscode/*
