@@ -10,9 +10,9 @@ Es basico, siempre va estar ordenado hacia la izquierda y a su derecha desordena
 
 ```
 PROCESO ordenar numeros por insercion:
-  DEFINIR numeros como ENTERO;
-  DEFINIR posicion como ENTERO;
-  DEFINIR auxiliar como ENTERO;
+  DEFINIR numeros COMO ENTERO;
+  DEFINIR posicion COMO ENTERO;
+  DEFINIR auxiliar COMO ENTERO;
 
   DIMENSION numeros[6] = {6, 4, 2, 1, 3, 5};
 
@@ -31,6 +31,6 @@ FIN PROCESO
 
 En el fichero  encontraras ejemplos implementados en **java** y en **C**, pero si quieres usar otro lenguaje puedes basarte en el **pseudocodigo**.
 
-## Guia como compilar en **C**
+## Guia COMO compilar en **C**
 
 En la carpeta de Seleccion se encuentra la guia para poder compilar la aplicacion en **C**

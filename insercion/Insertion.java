@@ -1,8 +1,8 @@
-package inserccion;
+package insercion;
 
 import java.util.Arrays;
 
-public class Insetion {
+public class Insertion {
 
   public static void orderArray(int[] numbers){
     int position; // Para guardar la posicion del Array
