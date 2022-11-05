@@ -8,15 +8,14 @@ Es un algoritmo de ordenamiento que require 0(n^2) operaciones para ordenar una 
 - Intercambiar con el segundo.
 - Sucesivamente.
 
-## Explicación de como se ordena
 
-**PSeudocodigo**
+## PSeudocodigo
 
 ```
 PROCESO ordernar numeros por seleccion:
-  DEFINIR numeros como ENTERO;
-  DEFINIR temporal como ENTERO;
-  DEFINIR minimo como ENTERO;
+  DEFINIR numeros COMO ENTERO;
+  DEFINIR temporal COMO ENTERO;
+  DEFINIR minimo COMO ENTERO;
 
   DIMENSION numeros[6] = {6, 4, 2, 1, 3, 5};
 
@@ -35,7 +34,7 @@ PROCESO ordernar numeros por seleccion:
 FIN PROCESO
 ```
 
-Cuando declaramos el segundo for como se ve en el segundo **pseudocodigo** puede que tengas la idea de inicializar **j** en **1**, si lo hacer el **algoritmo** no funcionará. El objetivo que hace **j=i+1** es obligadamente tomar el siguiente elemento para poder compararlo, de otra forma solo estario recorriendo el array y no podria ordenarlo.
+Cuando declaramos el segundo for COMO se ve en el segundo **pseudocodigo** puede que tengas la idea de inicializar **j** en **1**, si lo hacer el **algoritmo** no funcionará. El objetivo que hace **j=i+1** es obligadamente tomar el siguiente elemento para poder compararlo, de otra forma solo estario recorriendo el array y no podria ordenarlo.
 
 En el fichero encontraras un ejemplo de implementacion con dos lenguajes de programacion para que se pueda entender mejor los lenguajes de programacion elejidos don **"java"** y **"c"**, pero si quires usar otro, te podes guiar con el **pseudocodigo** para que lo puedas implementar.
 
