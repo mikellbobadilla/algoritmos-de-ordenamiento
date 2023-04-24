@@ -35,7 +35,8 @@ void OrderByBurbuja(int* numbers, int cantEl){
 }
 
 int main(){
-  int* numbers = CreateArray(6);
+  int cant = 6;
+  int* numbers = CreateArray(cant);
   numbers[0] = 6;
   numbers[1] = 4;
   numbers[2] = 2;
@@ -43,7 +44,7 @@ int main(){
   numbers[4] = 5;
   numbers[5] = 3;
 
-  OrderByBurbuja(numbers, 6);
+  OrderByBurbuja(numbers, cant);
   FreeArray(numbers);
   return 0;
 }
